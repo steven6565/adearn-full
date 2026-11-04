@@ -17,7 +17,7 @@ async function call(path, options = {}) {
 }
 
 export const api = {
-  me: () => call('/api/me', { method: 'POST' }),
+  me: () => call('/api/me', { method: 'GET' }),
   adsStatus: () => fetch(`${API}/api/ads/status`).then((r) => r.json()),
   adsStart: () => call('/api/ads/start', { method: 'POST' }),
   adsRegister: (providerEventId, provider) =>
