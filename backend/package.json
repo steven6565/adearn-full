@@ -1,0 +1,1 @@
+{"dependencies":{"cors":"^2.8.5","express":"^4.19.2","pg":"^8.12.0"},"main":"src/server.js","name":"adearn-backend","private":true,"scripts":{"dev":"node --watch src/server.js","start":"node src/server.js"},"type":"module","version":"1.0.0"}
